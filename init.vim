@@ -96,6 +96,7 @@ Plug 'kabouzeid/nvim-lspinstall'
 Plug 'scrooloose/nerdcommenter'
 Plug 'posva/vim-vue' 
 Plug 'othree/html5.vim'
+Plug 'nvim-lua/completion-nvim'
 
 Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', {
@@ -122,6 +123,7 @@ require'lspinstall'.post_install_hook = function ()
   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 end
 EOF
+
 
 
 
